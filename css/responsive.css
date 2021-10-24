@@ -1,0 +1,529 @@
+@media (max-width: 1200px) {
+    .btn-custom {
+        font-size: 15.5px;
+        padding: 16.5px 36px;
+    }
+    /* Hero */
+    .hero {
+        padding-top: 6.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .hero-text h2 {
+        font-size: 40px;
+        line-height: 76px;
+    }
+    .hero-text p {
+        font-size: 15.5px;
+        line-height: 32px;
+        margin-top: 20px;
+        margin-bottom: 45px;
+    }
+    .hero-img {
+        width: 100%;
+    }
+    /* Organisasi */
+    .organisasi-text h3 {
+        font-size: 40px;
+        line-height: 67px;
+    }
+    .organisasi-text p {
+        font-size: 15.5px;
+        line-height: 32px;
+    }
+    .organisasi-box .card {
+        margin: 0 10px;
+        height: 320px;
+    }
+    .organisasi-box .card h4 {
+        font-size: 18px;
+    }
+    .organisasi-box .card p {
+        padding-right: 0;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    /* Anggota */
+    .anggota-text h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .anggota-text p {
+        font-size: 15.5px;
+    }
+    .anggota-img .card {
+        margin: 0;
+    }
+    /* Artikel */
+    .artikel {
+        padding-top: 6.5rem;
+    }
+    .artikel-text h3 {
+        font-size: 40px;
+        color: #222330;
+        font-weight: 600;
+        line-height: 57px;
+    }
+    .artikel-text p {
+        font-size: 15.5px;
+        color: #A6A6A6;
+        line-height: 34px;
+    }
+    .artikel-box {
+        display: flex;
+        overflow-x: auto;
+    }
+    .artikel-box::-webkit-scrollbar {
+        width: 0;
+    }
+    .artikel-box .card {
+        min-width: 285px;
+        margin: 20px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 120px 10px rgba(102, 102, 102, 0.12);
+        border-radius: 40px;
+        border: none;
+    }
+    .artikel-box .card-text {
+        padding: 20px;
+    }
+    .artikel-box .card-text h4 {
+        font-size: 20px;
+        color: #222330;
+        font-weight: 600;
+        margin-bottom: 20px;
+        line-height: 34px;
+    }
+    .artikel-box .card-text a {
+        font-size: 18px;
+        color: var(--bright-red);
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .artikel-box .card-text a i {
+        margin-left: 10px;
+    }
+    /* Galeri */
+    .galeri-panel h3 {
+        font-size: 40px;
+    }
+    .galeri-panel p {
+        font-size: 15.5px;
+        margin: 20px 0;
+        line-height: 34px;
+    }
+    .galeri-panel .box-img {
+        margin: 0 10px;
+    }
+    .galeri-panel .box-small img {
+        margin-bottom: 30px;
+    }
+    /* About */
+    .about {
+        padding-top: 36rem;
+        margin-top: -180px;
+        padding-bottom: 1.5rem;
+    }
+    .about p {
+        font-size: 15.5px;
+        color: #A6A6A6;
+    }
+    .about h3 {
+        font-size: 40px;
+        color: #fff;
+        margin: 20px 0;
+        line-height: 80px;
+    }
+    /* Footer */
+    .footer {
+        padding-top: 4.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .footer .company h4 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    .footer .company p {
+        font-size: 14.5px;
+        color: #A6A6A6;
+        line-height: 27px;
+        margin-bottom: 2.5rem;
+    }
+    .footer .resources h4 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    .footer .resources p {
+        font-size: 14.5px;
+        color: #646464;
+        line-height: 30px;
+    }
+    .footer .about-us h4 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    .footer .about-us p {
+        font-size: 14.5px;
+        color: #646464;
+        line-height: 30px;
+    }
+    .footer .newsletter h4 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    .footer .social-icon {
+        font-size: 18px;
+        color: #fff;
+    }
+    .footer .social-icon i {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Hero */
+    .hero {
+        padding-top: 7.5rem;
+        padding-bottom: 2rem;
+    }
+    .hero-text h2 {
+        font-size: 40px;
+        line-height: 76px;
+    }
+    .hero-text p {
+        font-size: 15.5px;
+        margin-bottom: 45px;
+    }
+    .hero-img {
+        margin-top: 60px;
+        margin-left: 0;
+    }
+    .organisasi-text h3 {
+        font-size: 40px;
+        line-height: 67px;
+    }
+    .organisasi-text p {
+        font-size: 15.5px;
+        line-height: 32px;
+    }
+    .organisasi-box .card {
+        margin: 0 10px;
+        height: 280px;
+    }
+    .organisasi-box .card h4 {
+        font-size: 18px;
+    }
+    .organisasi-box .card p {
+        padding-right: 0;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    /* Anggota */
+    .anggota {
+        padding-top: 6.5rem;
+        padding-bottom: 3rem;
+    }
+    .anggota-text h3 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #222330;
+        margin-bottom: 20px;
+    }
+    .anggota-text p {
+        font-size: 15.5px;
+        font-weight: 400;
+        color: #A6A6A6;
+    }
+    .anggota-img .card {
+        border-radius: 20px 140px;
+        margin: 15px 5px;
+    }
+    .anggota-img .card.card-1,
+    .anggota-img .card.card-3 {
+        margin-top: 15px;
+    }
+    .anggota-img .card-text {
+        padding: 25px 10px;
+    }
+    .anggota-img .card-text h4 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .anggota-img .card-text p {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    /* Artikel */
+    .artikel {
+        padding-top: 6.5rem;
+    }
+    .artikel-text h3 {
+        font-size: 40px;
+        color: #222330;
+        font-weight: 600;
+        line-height: 57px;
+    }
+    .artikel-text p {
+        font-size: 15.5px;
+        color: #A6A6A6;
+        line-height: 34px;
+    }
+    .artikel-box {
+        display: flex;
+        overflow-x: auto;
+        margin-top: 2.5rem;
+    }
+    .artikel-box .card-text h4 {
+        font-size: 18px;
+        color: #222330;
+        font-weight: 600;
+        margin-bottom: 20px;
+        line-height: 34px;
+    }
+    .artikel-box .card-text a {
+        font-size: 16px;
+    }
+    /* Galeri */
+    .galeri-panel .box-img {
+        margin: 0 20px;
+    }
+    .galeri-panel .box-small img {
+        margin-bottom: 40px;
+    }
+    /* About */
+    .about {
+        padding-top: 52rem;
+        margin-top: 12.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .about p {
+        font-size: 15.5px;
+        color: #A6A6A6;
+    }
+    .about h3 {
+        font-size: 40px;
+        color: #fff;
+        margin: 20px 0;
+        line-height: 80px;
+    }
+    /* Footer */
+    .footer {
+        padding-top: 2.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .footer .company h4 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 1.5rem;
+    }
+    .footer .company p {
+        font-size: 14.5px;
+        color: #A6A6A6;
+        line-height: 27px;
+        margin-bottom: 3.5rem;
+    }
+    .footer .resources h4 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    .footer .resources p {
+        font-size: 14.5px;
+        color: #646464;
+        line-height: 30px;
+    }
+    .footer .about-us h4 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    .footer .about-us p {
+        font-size: 14.5px;
+        color: #646464;
+        line-height: 30px;
+    }
+    .footer .newsletter h4 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        margin-top: 1.5rem;
+    }
+    .footer .social-icon {
+        font-size: 18px;
+        color: #fff;
+    }
+    .footer .social-icon i {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Hero */
+    .hero {
+        padding-top: 6.5rem;
+    }
+    .hero-text h2 {
+        font-size: 34px;
+        line-height: 56px;
+    }
+    .hero-text p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    .hero-img {
+        margin-top: 40px;
+    }
+    .hero-img img {
+        margin: 5px;
+    }
+    .btn-custom {
+        font-size: 14px;
+        width: 100%;
+    }
+    /* Organisasi */
+    .organisasi-text h3 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .organisasi-text p {
+        font-size: 13.5px;
+        line-height: 32px;
+    }
+    .organisasi-box .card {
+        margin: 10px 0;
+        height: 280px;
+    }
+    .organisasi-box .card .icon img {
+        width: 20px;
+    }
+    .organisasi-box .card h4 {
+        font-size: 18px;
+    }
+    .organisasi-box .card p {
+        padding-right: 0;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    /* Anggota */
+    .anggota-text h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .anggota-text p {
+        font-size: 14px;
+    }
+    .anggota-img {
+        margin-top: 0;
+    }
+    .anggota-img .card {
+        border-radius: 20px 140px;
+        margin: 20px;
+    }
+    .anggota-img .card.card-1,
+    .anggota-img .card.card-3 {
+        margin-top: 20px;
+    }
+    .anggota-img .card-text {
+        padding: 25px 10px;
+    }
+    .anggota-img .card-text h4 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .anggota-img .card-text p {
+        font-size: 16px;
+    }
+    /* Artikel */
+    .artikel-text h3 {
+        font-size: 28px;
+        color: #222330;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    .artikel-text p {
+        font-size: 14px;
+        color: #A6A6A6;
+        line-height: 24px;
+    }
+    .artikel-box {
+        display: flex;
+        overflow-x: auto;
+    }
+    .artikel-box::-webkit-scrollbar {
+        width: 0;
+    }
+    .artikel-box .card {
+        min-width: 285px;
+        margin: 20px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 120px 10px rgba(102, 102, 102, 0.12);
+        border-radius: 40px;
+        border: none;
+    }
+    .artikel-box .card-text {
+        padding: 20px;
+    }
+    .artikel-box .card-text h4 {
+        font-size: 18px;
+        color: #222330;
+        font-weight: 600;
+        margin-bottom: 20px;
+        line-height: 34px;
+    }
+    .artikel-box .card-text a {
+        font-size: 16px;
+        color: var(--bright-red);
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .artikel-box .card-text a i {
+        margin-left: 10px;
+    }
+    /* Galeri */
+    .galeri .galeri-panel {
+        padding: 40px;
+    }
+    .galeri-panel h3 {
+        font-size: 28px;
+    }
+    .galeri-panel p {
+        font-size: 14px;
+        margin: 20px 0;
+        line-height: 24px;
+    }
+    .galeri-panel .box-img {
+        margin: 0 10px;
+    }
+    .galeri-panel .box-small img {
+        margin-bottom: 30px;
+    }
+    /* About */
+    .about {
+        padding-top: 29rem;
+        margin-top: 0;
+        padding-bottom: 1.5rem;
+    }
+    .about p {
+        font-size: 14px;
+        color: #A6A6A6;
+    }
+    .about h3 {
+        font-size: 28px;
+        color: #fff;
+        margin: 20px 0;
+        line-height: 56px;
+    }
+}

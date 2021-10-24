@@ -1,0 +1,465 @@
+:root {
+    --dark-blue: #070C1E;
+    --pure-blue: #007bda;
+    --bright-red: #ee3e48;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* CTA */
+
+.btn-custom {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 17.5px 38px;
+    border-radius: 10px;
+    background-color: var(--pure-blue);
+    color: #fff;
+}
+
+.btn-custom:hover {
+    box-shadow: 0 0 5px rgba(0, 102, 255, 0.8);
+}
+
+span.color-acsent-1 {
+    color: var(--pure-blue);
+}
+
+span.color-acsent-2 {
+    color: var(--bright-red);
+}
+
+.heading {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 98px;
+    color: #fff;
+}
+
+
+/* Nav */
+
+.nav-dark {
+    background-image: url(/images/gradient-blue.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color: var(--dark-blue) !important;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #646464;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+
+/* Hero */
+
+.hero {
+    padding-top: 6.5rem;
+    padding-bottom: 1.5rem;
+    background-image: url(/images/gradient-blue.png), url(/images/gradient-red.png);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-color: var(--dark-blue);
+}
+
+.hero-text .text {
+    background: #FFFFFF;
+    background: -webkit-linear-gradient(to right, #FFFFFF 37%, #FFFFFF 0%, #808080 90%);
+    background: -moz-linear-gradient(to right, #FFFFFF 37%, #FFFFFF 0%, #808080 90%);
+    background: linear-gradient(to right, #FFFFFF 37%, #FFFFFF 0%, #808080 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text h2 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 98px;
+    color: #fff;
+}
+
+.hero-text p {
+    font-size: 16.5px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #A6A6A6;
+}
+
+.hero-img {
+    width: 100%;
+    margin-left: 32px;
+}
+
+.hero-img img {
+    width: 33%;
+    margin: 10px;
+}
+
+
+/* Organisasi */
+
+.organisasi {
+    padding-top: 6.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.organisasi-text h3 {
+    font-size: 48px;
+    line-height: 67px;
+    font-weight: 600;
+    color: #222330;
+}
+
+.organisasi-text p {
+    font-size: 16.5px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #A6A6A6;
+}
+
+.organisasi-box .card {
+    border: none;
+    box-shadow: 0px 4px 120px 10px rgba(102, 102, 102, 0.12);
+    border-radius: 40px;
+    margin: 0 10px;
+    height: 360px;
+}
+
+.organisasi-box .card .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--pure-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.organisasi-box .card h4 {
+    font-size: 22px;
+    color: #222330;
+}
+
+.organisasi-box .card p {
+    padding-right: 14px;
+    font-size: 16.5px;
+    line-height: 32px;
+    color: #A6A6A6;
+}
+
+
+/* Anggota */
+
+.anggota {
+    padding-top: 6.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.anggota-text h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #222330;
+    margin-bottom: 20px;
+}
+
+.anggota-text p {
+    font-size: 16.5px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #A6A6A6;
+}
+
+.anggota-img {
+    margin-top: 65px;
+}
+
+.anggota-img .card {
+    border-radius: 20px 140px;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin: 0 10px;
+    transition: transform 500ms ease;
+}
+
+.anggota-img .card.card-1,
+.anggota-img .card.card-3 {
+    margin-top: 8rem;
+}
+
+.anggota-img .card.card-rev {
+    border-radius: 140px 20px;
+}
+
+.anggota-img .card-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(6px);
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 500ms ease;
+}
+
+.anggota-img .card-text {
+    padding: 25px 10px;
+}
+
+.anggota-img .card-text h4 {
+    font-size: 20px;
+    color: #fff;
+    line-height: 34px;
+}
+
+.anggota-img .card-text p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.anggota-img .card:hover {
+    transform: scale(1.05);
+}
+
+.anggota-img .card:hover .card-text,
+.anggota-img .card:focus-within .card-text {
+    transform: translateY(0);
+}
+
+.anggota-img .card-text>* {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.anggota-img .card:hover .card-text>* {
+    opacity: 1;
+}
+
+
+/* Artikel */
+
+.artikel {
+    padding-top: 6.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.artikel-text h3 {
+    font-size: 48px;
+    color: #222330;
+    font-weight: 600;
+    line-height: 67px;
+}
+
+.artikel-text p {
+    font-size: 16.5px;
+    color: #A6A6A6;
+    line-height: 34px;
+}
+
+.artikel-box {
+    display: flex;
+    overflow-x: auto;
+}
+
+.artikel-box::-webkit-scrollbar {
+    width: 0;
+}
+
+.artikel-box .card {
+    min-width: 285px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 120px 10px rgba(102, 102, 102, 0.12);
+    border-radius: 40px;
+    border: none;
+}
+
+.artikel-box .card-text {
+    padding: 20px;
+}
+
+.artikel-box .card-text h4 {
+    font-size: 20px;
+    color: #222330;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 34px;
+}
+
+.artikel-box .card-text a {
+    font-size: 18px;
+    color: var(--bright-red);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.artikel-box .card-text a i {
+    margin-left: 10px;
+}
+
+
+/* Galeri */
+
+.galeri {
+    padding-top: 6.5rem;
+}
+
+.galeri .galeri-panel {
+    background-color: #fff;
+    box-shadow: 24px 10px 100px 20px rgba(68, 68, 68, 0.1);
+    padding: 80px;
+    border-radius: 80px 20px;
+    position: absolute;
+}
+
+.galeri-panel h3 {
+    font-size: 48px;
+    color: #222330;
+    font-weight: 600;
+}
+
+.galeri-panel p {
+    font-size: 16.5px;
+    color: #A6A6A6;
+    font-weight: 400;
+    margin: 20px 0;
+    line-height: 34px;
+}
+
+.galeri-panel .box-img {
+    margin: 0 20px;
+}
+
+.galeri-panel .box-small img {
+    margin-bottom: 40px;
+}
+
+.box-container {
+    background-image: url(/images/gradient-blue.png), url(/images/gradient-red-footer.png), url(/images/gradient-blue-footer.png);
+    background-position: left top, right, left bottom;
+    background-repeat: no-repeat;
+    background-color: var(--dark-blue);
+}
+
+
+/* About */
+
+.about {
+    padding-top: 40rem;
+    margin-top: -180px;
+    padding-bottom: 1.5rem;
+}
+
+.about .text {
+    background: #FFFFFF;
+    background: -webkit-linear-gradient(to right, #FFFFFF 37%, #FFFFFF 0%, #808080 90%);
+    background: -moz-linear-gradient(to right, #FFFFFF 37%, #FFFFFF 0%, #808080 90%);
+    background: linear-gradient(to right, #FFFFFF 37%, #FFFFFF 0%, #808080 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about p {
+    font-size: 16.5px;
+    color: #A6A6A6;
+}
+
+.about h3 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    margin: 60px 0;
+    line-height: 80px;
+}
+
+
+/* Footer */
+
+.footer {
+    padding-top: 6.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer .company h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer .company p {
+    font-size: 16.5px;
+    color: #A6A6A6;
+    line-height: 27px;
+}
+
+.footer .resources h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.footer .resources a {
+    font-size: 16.5px;
+    color: #646464;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.footer .resources a:hover {
+    color: #A6A6A6;
+}
+
+.footer .about-us h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.footer .about-us a {
+    font-size: 16.5px;
+    color: #646464;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.footer .about-us a:hover {
+    color: #A6A6A6;
+}
+
+.footer .newsletter h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer .social-icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer .social-icon i {
+    margin: 0 5px;
+}
